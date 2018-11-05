@@ -1,0 +1,547 @@
+.molvwr {
+  position        : relative;
+  min-height      : 100px;
+  background-color: #e5e5f2;
+}
+
+.atoms-legend {
+  position: absolute;
+  width   : auto;
+  left    : 0;
+  top     : 0;
+  bottom  : 6px;
+}
+
+.atom {
+  background-color: #CCC;
+  width           : 30px;
+  height          : 30px;
+  line-height     : 30px;
+  text-align      : center;
+  border-radius   : 50%;
+  margin          : 0 1rem 1rem;
+  font-size       : 0.8rem;
+  font-weight     : 700;
+  color           : #FFF;
+  box-shadow      : inset 0 -5px 10px rgba(0, 0, 0, 0.3);
+  text-shadow     : 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.atom:last-child {
+  margin-bottom: 0;
+}
+
+.atom-Ac {
+  background-color: rgb(112, 171, 250);
+}
+
+.atom-Ag {
+  color           : #000;
+  background-color: rgb(192, 192, 192);
+}
+
+.atom-Al {
+  background-color: rgb(191, 166, 166);
+}
+
+.atom-Am {
+  background-color: rgb(84, 92, 242);
+}
+
+.atom-Ar {
+  color           : #000;
+  background-color: rgb(128, 209, 227);
+}
+
+.atom-As {
+  background-color: rgb(189, 128, 227);
+}
+
+.atom-At {
+  background-color: rgb(117, 79, 69);
+}
+
+.atom-Au {
+  color           : #000;
+  background-color: rgb(255, 209, 35);
+}
+
+.atom-B {
+  color           : #000;
+  background-color: rgb(255, 181, 181);
+}
+
+.atom-Ba {
+  background-color: rgb(0, 201, 0);
+}
+
+.atom-Be {
+  color           : #000;
+  background-color: rgb(194, 255, 0);
+}
+
+.atom-Bh {
+  background-color: rgb(224, 0, 56);
+}
+
+.atom-Bi {
+  background-color: rgb(158, 79, 181);
+}
+
+.atom-Bk {
+  background-color: rgb(138, 79, 227);
+}
+
+.atom-Br {
+  background-color: rgb(166, 41, 41);
+}
+
+.atom-C {
+  background-color: rgb(50, 50, 50);
+}
+
+.atom-Ca {
+  color           : #000;
+  background-color: rgb(61, 255, 0);
+}
+
+.atom-Cd {
+  color           : #000;
+  background-color: rgb(255, 217, 143);
+}
+
+.atom-Ce {
+  color           : #000;
+  background-color: rgb(255, 255, 199);
+}
+
+.atom-Cf {
+  background-color: rgb(161, 54, 212);
+}
+
+.atom-Cl {
+  color           : #000;
+  background-color: rgb(31, 240, 31);
+}
+
+.atom-Cm {
+  background-color: rgb(120, 92, 227);
+}
+
+.atom-Co {
+  background-color: rgb(240, 144, 160);
+}
+
+.atom-Cr {
+  background-color: rgb(138, 153, 199);
+}
+
+.atom-Cs {
+  background-color: rgb(87, 23, 143);
+}
+
+.atom-Cu {
+  background-color: rgb(200, 128, 51);
+}
+
+.atom-Db {
+  background-color: rgb(209, 0, 79);
+}
+
+.atom-Ds {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Dy {
+  color           : #000;
+  background-color: rgb(31, 255, 199);
+}
+
+.atom-Er {
+  color           : #000;
+  background-color: rgb(0, 230, 117);
+}
+
+.atom-Es {
+  background-color: rgb(179, 31, 212);
+}
+
+.atom-Eu {
+  color           : #000;
+  background-color: rgb(97, 255, 199);
+}
+
+.atom-F {
+  color           : #000;
+  background-color: rgb(144, 224, 80);
+}
+
+.atom-Fe {
+  background-color: rgb(224, 102, 51);
+}
+
+.atom-Fm {
+  background-color: rgb(179, 31, 186);
+}
+
+.atom-Fr {
+  background-color: rgb(66, 0, 102);
+}
+
+.atom-Ga {
+  background-color: rgb(194, 143, 143);
+}
+
+.atom-Gd {
+  color           : #000;
+  background-color: rgb(69, 255, 199);
+}
+
+.atom-Ge {
+  background-color: rgb(102, 143, 143);
+}
+
+.atom-H {
+  color           : #000;
+  background-color: rgb(255, 255, 255);
+}
+
+.atom-He {
+  color           : #000;
+  background-color: rgb(217, 255, 255);
+}
+
+.atom-Hf {
+  color           : #000;
+  background-color: rgb(77, 194, 255);
+}
+
+.atom-Hg {
+  color           : #000;
+  background-color: rgb(184, 184, 208);
+}
+
+.atom-Ho {
+  color           : #000;
+  background-color: rgb(0, 255, 156);
+}
+
+.atom-Hs {
+  background-color: rgb(230, 0, 46);
+}
+
+.atom-I {
+  background-color: rgb(148, 0, 148);
+}
+
+.atom-In {
+  background-color: rgb(166, 117, 115);
+}
+
+.atom-Ir {
+  background-color: rgb(23, 84, 135);
+}
+
+.atom-K {
+  background-color: rgb(143, 64, 212);
+}
+
+.atom-Kr {
+  background-color: rgb(92, 184, 209);
+}
+
+.atom-La {
+  color           : #000;
+  background-color: rgb(112, 212, 255);
+}
+
+.atom-Li {
+  background-color: rgb(204, 128, 255);
+}
+
+.atom-Lr {
+  background-color: rgb(199, 0, 102);
+}
+
+.atom-Lu {
+  background-color: rgb(0, 171, 36);
+}
+
+.atom-Md {
+  background-color: rgb(179, 13, 166);
+}
+
+.atom-Mg {
+  color           : #000;
+  background-color: rgb(138, 255, 0);
+}
+
+.atom-Mn {
+  background-color: rgb(156, 122, 199);
+}
+
+.atom-Mo {
+  background-color: rgb(84, 181, 181);
+}
+
+.atom-Mt {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-N {
+  background-color: rgb(48, 80, 248);
+}
+
+.atom-Na {
+  background-color: rgb(171, 92, 242);
+}
+
+.atom-Nb {
+  color           : #000;
+  background-color: rgb(115, 194, 201);
+}
+
+.atom-Nd {
+  color           : #000;
+  background-color: rgb(199, 255, 199);
+}
+
+.atom-Ne {
+  color           : #000;
+  background-color: rgb(179, 227, 245);
+}
+
+.atom-Ni {
+  color           : #000;
+  background-color: rgb(80, 208, 80);
+}
+
+.atom-No {
+  background-color: rgb(189, 13, 135);
+}
+
+.atom-Np {
+  background-color: rgb(0, 128, 255);
+}
+
+.atom-O {
+  background-color: rgb(255, 13, 13);
+}
+
+.atom-Os {
+  background-color: rgb(38, 102, 150);
+}
+
+.atom-P {
+  background-color: rgb(255, 128, 0);
+}
+
+.atom-Pa {
+  background-color: rgb(0, 161, 255);
+}
+
+.atom-Pb {
+  background-color: rgb(87, 89, 97);
+}
+
+.atom-Pd {
+  background-color: rgb(0, 105, 133);
+}
+
+.atom-Pm {
+  color           : #000;
+  background-color: rgb(163, 255, 199);
+}
+
+.atom-Po {
+  background-color: rgb(171, 92, 0);
+}
+
+.atom-Pr {
+  color           : #000;
+  background-color: rgb(217, 255, 199);
+}
+
+.atom-Pt {
+  color           : #000;
+  background-color: rgb(208, 208, 224);
+}
+
+.atom-Pu {
+  background-color: rgb(0, 107, 255);
+}
+
+.atom-Ra {
+  background-color: rgb(0, 125, 0);
+}
+
+.atom-Rb {
+  background-color: rgb(112, 46, 176);
+}
+
+.atom-Re {
+  background-color: rgb(38, 125, 171);
+}
+
+.atom-Rf {
+  background-color: rgb(204, 0, 89);
+}
+
+.atom-Rh {
+  background-color: rgb(10, 125, 140);
+}
+
+.atom-Rn {
+  background-color: rgb(66, 130, 150);
+}
+
+.atom-Ru {
+  background-color: rgb(36, 143, 143);
+}
+
+.atom-S {
+  color           : #000;
+  background-color: rgb(255, 255, 48);
+}
+
+.atom-Sb {
+  background-color: rgb(158, 99, 181);
+}
+
+.atom-Sc {
+  color           : #000;
+  background-color: rgb(230, 230, 230);
+}
+
+.atom-Se {
+  color           : #000;
+  background-color: rgb(255, 161, 0);
+}
+
+.atom-Sg {
+  background-color: rgb(217, 0, 69);
+}
+
+.atom-Si {
+  color           : #000;
+  background-color: rgb(240, 200, 160);
+}
+
+.atom-Sm {
+  color           : #000;
+  background-color: rgb(143, 255, 199);
+}
+
+.atom-Sn {
+  background-color: rgb(102, 128, 128);
+}
+
+.atom-Sr {
+  color           : #000;
+  background-color: rgb(0, 255, 0);
+}
+
+.atom-Ta {
+  background-color: rgb(77, 166, 255);
+}
+
+.atom-Tb {
+  color           : #000;
+  background-color: rgb(48, 255, 199);
+}
+
+.atom-Tc {
+  background-color: rgb(59, 158, 158);
+}
+
+.atom-Te {
+  background-color: rgb(212, 122, 0);
+}
+
+.atom-Th {
+  background-color: rgb(0, 186, 255);
+}
+
+.atom-Ti {
+  color           : #000;
+  background-color: rgb(191, 194, 199);
+}
+
+.atom-Tl {
+  background-color: rgb(166, 84, 77);
+}
+
+.atom-Tm {
+  color           : #000;
+  background-color: rgb(0, 212, 82);
+}
+
+.atom-U {
+  background-color: rgb(0, 143, 255);
+}
+
+.atom-Uub {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uuh {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uuo {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uup {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uuq {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uus {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uut {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-Uuu {
+  background-color: rgb(235, 0, 38);
+}
+
+.atom-V {
+  background-color: rgb(248, 137, 48);
+}
+
+.atom-W {
+  background-color: rgb(33, 148, 214);
+}
+
+.atom-Xe {
+  background-color: rgb(66, 158, 176);
+}
+
+.atom-Xx {
+  background-color: rgb(255, 20, 147);
+}
+
+.atom-Y {
+  color           : #000;
+  background-color: rgb(148, 255, 255);
+}
+
+.atom-Yb {
+  background-color: rgb(0, 191, 56);
+}
+
+.atom-Zn {
+  background-color: rgb(125, 128, 176);
+}
+
+.atom-Zr {
+  color           : #000;
+  background-color: rgb(148, 224, 224);
+}
